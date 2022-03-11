@@ -55,10 +55,11 @@ ytd-expander.ytd-video-secondary-info-renderer,
     font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "SF Pro Text", "Hiragino Sans GB", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "苹方-简", "Noto Sans CJK SC", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji !important;
 }
 
-/* Github */
+/* Github and GitHub */
 .file-info,
 .blob-code-inner,
 .text-mono,
+.line,
 .CodeMirror {
     font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "JetBrains Mono", "Hiragino Sans GB", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "苹方-简", "Noto Sans CJK SC", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji;
 }
@@ -143,7 +144,7 @@ html:lang(zh-Hans) code,
 html:lang(zh-Hans) kbd,
 html:lang(zh-Hans) pre,
 html:lang(zh-Hans) samp {
-    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "JetBrains Mono", "Hiragino Sans GB", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "苹方-简", "Source Han Mono HC", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji;
+    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "JetBrains Mono", "Hiragino Sans GB", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "苹方-简", "Source Han Mono HC", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji !important;
 }
 
 html:lang(zh-TW) body,
