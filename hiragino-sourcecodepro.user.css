@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name hiragino
 @namespace hiragino
-@version 3.1.1
+@version 2022-03-12
 @preprocessor default
 ==/UserStyle== */
 
@@ -519,4 +519,9 @@ html:lang(ar) body {
     font-family: "Segoe UI Emoji";
     src: local("Twemoji Mozilla");
     unicode-range: U+A9-E007F;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: local("Source Code Pro");
 }

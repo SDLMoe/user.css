@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name hiragino
 @namespace hiragino
-@version 2022-03-12
+@version 3.1.1
 @preprocessor default
 ==/UserStyle== */
 
@@ -64,7 +64,7 @@ ytd-expander.ytd-video-secondary-info-renderer,
 /* BiliBili Debug Panel */
 .bilibili-player-video-info-container,
 .web-player-video-info-panel {
-    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "JetBrains Mono", "Hiragino Sans GB", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "苹方-简", "Noto Sans CJK SC", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji;
+    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "Source Code Pro", "Hiragino Sans GB", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "苹方-简", "Noto Sans CJK SC", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji;
 }
 
 /* Wikipedia */
@@ -147,7 +147,7 @@ html:lang(zh-Hans) code,
 html:lang(zh-Hans) kbd,
 html:lang(zh-Hans) pre,
 html:lang(zh-Hans) samp {
-    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "JetBrains Mono", "Hiragino Sans GB", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "苹方-简", "Source Han Mono HC", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji !important;
+    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "Source Code Pro", "Hiragino Sans GB", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "苹方-简", "Source Han Mono HC", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji !important;
 }
 
 html:lang(zh-TW) body,
@@ -174,7 +174,7 @@ html:lang(zh-Hant) code,
 html:lang(zh-Hant) kbd,
 html:lang(zh-Hant) pre,
 html:lang(zh-Hant) samp {
-    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "JetBrains Mono", "Hiragino Sans CNS", "Hiragino Sans TC", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans GB", "苹方-繁", "Source Han Mono TC", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji;
+    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "Source Code Pro", "Hiragino Sans CNS", "Hiragino Sans TC", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans GB", "苹方-繁", "Source Han Mono TC", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji;
 }
 
 html:lang(zh-Hant-HK) body,
@@ -211,7 +211,7 @@ html:lang(zh-yue-Hant) code,
 html:lang(zh-yue-Hant) kbd,
 html:lang(zh-yue-Hant) pre,
 html:lang(zh-yue-Hant) samp {
-    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "JetBrains Mono", "Hiragino Sans CNS", "Hiragino Sans TC", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans GB", "苹方-港", "Noto Sans CJK HK", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji;
+    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "Source Code Pro", "Hiragino Sans CNS", "Hiragino Sans TC", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans GB", "苹方-港", "Noto Sans CJK HK", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji;
 }
 
 html:lang(ja) body {
@@ -223,7 +223,7 @@ html:lang(ja) code,
 html:lang(ja) kbd,
 html:lang(ja) pre,
 html:lang(ja) samp {
-    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "JetBrains Mono", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "Hiragino Sans GB", "Source Han Code JP", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji;
+    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "Source Code Pro", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "Hiragino Sans GB", "Source Han Code JP", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji;
 }
 
 html:lang(ko) body {
@@ -234,7 +234,7 @@ html:lang(ko) code,
 html:lang(ko) kbd,
 html:lang(ko) pre,
 html:lang(ko) samp {
-    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "JetBrains Mono", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "Hiragino Sans GB", "Source Han Mono K", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji;
+    font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "Source Code Pro", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "Hiragino Sans GB", "Source Han Mono K", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji;
 }
 
 html:lang(ar) body {
@@ -330,48 +330,48 @@ html:lang(ar) body {
 
 @font-face {
     font-family: monospace;
-    src: local("JetBrains Mono");
+    src: local("Source Code Pro");
 }
 
 @font-face {
     font-family: "SF Mono";
-    src: local("JetBrains Mono");
+    src: local("Source Code Pro");
 }
 
 @font-face {
     font-family: ui-monospace;
-    src: local("JetBrains Mono");
+    src: local("Source Code Pro");
 }
 
 @font-face {
     font-family: "SFMono-Regular";
-    src: local("JetBrains Mono");
+    src: local("Source Code Pro");
 }
 
 
 @font-face {
     font-family: "Consolas";
-    src: local("JetBrains Mono");
+    src: local("Source Code Pro");
 }
 
 @font-face {
     font-family: "Courier";
-    src: local("JetBrains Mono");
+    src: local("Source Code Pro");
 }
 
 @font-face {
     font-family: "Courier New";
-    src: local("JetBrains Mono");
+    src: local("Source Code Pro");
 }
 
 @font-face {
     font-family: "Lucida Console";
-    src: local("JetBrains Mono");
+    src: local("Source Code Pro");
 }
 
 @font-face {
     font-family: "Ubuntu Mono";
-    src: local("JetBrains Mono");
+    src: local("Source Code Pro");
 }
 
 @font-face {
@@ -519,9 +519,4 @@ html:lang(ar) body {
     font-family: "Segoe UI Emoji";
     src: local("Twemoji Mozilla");
     unicode-range: U+A9-E007F;
-}
-
-@font-face {
-    font-family: "Source Code Pro";
-    src: local("JetBrains Mono");
 }
