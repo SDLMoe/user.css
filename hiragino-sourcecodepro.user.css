@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name hiragino
 @namespace hiragino
-@version 3.1
+@version 3.1.1
 @preprocessor default
 ==/UserStyle== */
 
@@ -60,7 +60,10 @@ ytd-expander.ytd-video-secondary-info-renderer,
 .blob-code-inner,
 .text-mono,
 .line,
-.CodeMirror {
+.CodeMirror,
+/* BiliBili Debug Panel */
+.bilibili-player-video-info-container,
+.web-player-video-info-panel {
     font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "Source Code Pro", "Hiragino Sans GB", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "苹方-简", "Noto Sans CJK SC", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji;
 }
 
