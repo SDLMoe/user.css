@@ -59,7 +59,7 @@ ytd-expander.ytd-video-secondary-info-renderer,
 .file-info,
 .blob-code-inner,
 .text-mono,
-.line,
+.code.line,
 .CodeMirror,
 /* BiliBili Debug Panel */
 .bilibili-player-video-info-container,

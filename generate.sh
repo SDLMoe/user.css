@@ -1,7 +1,7 @@
 #!/bin/sh
-sed --expression="s/.*@version.*/@version $(date --utc +'%Y-%m-%d')/g" hiragino.user.css > hiragino-sourcecodepro.user.css
+sed -e "s/.*@version.*/@version $(date -u +'%Y-%m-%d')/g" hiragino.user.css > hiragino-sourcecodepro.user.css
 
-sed --expression="s/Source Code Pro/JetBrains Mono/g" hiragino-sourcecodepro.user.css > hiragino-jbmono.user.css
+sed -e "s/Source Code Pro/JetBrains Mono/g" hiragino-sourcecodepro.user.css > hiragino-jbmono.user.css
 
 cat << EOF >> hiragino-sourcecodepro.user.css
 
