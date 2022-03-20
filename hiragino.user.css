@@ -51,7 +51,23 @@ ytd-expander.ytd-video-secondary-info-renderer,
 .bb-comment,
 .comment-bilibili-fold,
 .feed-card[data-v-d5df5636],
-.markdown-body {
+.markdown-body,
+div.search-tabs *,
+div.bili-footer *,
+div.search-conditions button.vui_button,
+div.search-condition-row,
+div.media-card *,
+div.search-content div.search-page-live *,
+div.b-user-info-card *,
+div.b-article-card *,
+div.b-toipc-card *,
+/* Reddit */
+.header[data-redditstyle=true],
+.div[id="TrendingPostsContainer"],
+.div[class^="subredditvars"],
+.RichTextJSON-root,
+.post-content,
+.post-container {
     font-family: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwemojiMozilla", "SF Pro Text", "Hiragino Sans GB", "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Hiragino Sans CNS", "Hiragino Sans TC", "苹方-简", "Noto Sans CJK SC", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic", emoji !important;
 }
 
