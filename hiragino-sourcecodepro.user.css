@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name hiragino
 @namespace hiragino
-@version 2022-03-20
+@version 2022-03-21
 @preprocessor default
 ==/UserStyle== */
 
@@ -14,6 +14,23 @@ li,
 .css-349,
 .css-356,
 .css-329,
+.cc-nav-wrp,
+#bilibiliPlayer,
+.video-up-app,
+.flex_center,
+.text-con,
+.side-buttons-container,
+.p_fixed,
+.media-card-content,
+.search-conditions,
+.win,
+.bilibili-player-area,
+.bilibili-player-dm-tip-wrap,
+.video-state-blackside,
+.video-state-pause,
+.progress-shadow-show,
+.vsc-initialized,
+.i_wrapper mt_xl,
 .animated-link,
 .hero__title,
 .hero__title--refresh,
@@ -41,6 +58,13 @@ div#global_header,
 .apphub_CardMetaData,
 .apphub_CardContentAuthorName,
 #result-stats,
+.textarea-container,
+.textarea,
+.data-card,
+.data-card-detail,
+.data-card-top,
+.data-card-name,
+.name,
 .r-poiln3,
 .bold.yt-formatted-string,
 .metadata-snippet-container.ytd-video-renderer,
