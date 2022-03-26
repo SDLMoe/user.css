@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name hiragino
 @namespace hiragino
-@version 2022-03-22
+@version 2022-03-26
 @preprocessor default
 ==/UserStyle== */
 
@@ -122,8 +122,12 @@ div.bili-live-card *,
 div.bili-movie-card *,
 div.bili-manga-card *,
 div.bangumi-card-data *,
+div.user-info *,
+div[role="listitem"].custom-navbar-item *,
+div[role="navigation"] *,
 aside[class$="rank-list"] *,
 ul[class$="rank-list"] *,
+a.watch-more *.vui_button,
 .room-info-ctnr,
 div.announcement-cntr,
 .live-room-app .aside-area,
