@@ -6,13 +6,11 @@ Use Hiragino Font Family for websites.<br><br>
   - Apple
     - [San Francsio](https://developer.apple.com/fonts/), aka SF, including `SF Pro Text`, etc.
     - [New York](https://developer.apple.com/fonts/), including `New York Small`, etc.<br><br>
-  > For Source Han and Noto Sans CJK, the `.ttc` (Super OTC) is recommended. _(needs OS support)_
+  > For Source Han, the `.ttc` (Super OTC) is recommended. _(needs OS support)_
   - Adobe
     - [Source Han Serif](https://github.com/adobe-fonts/source-han-serif)
     - [Source Han Code JP](https://github.com/adobe-fonts/source-han-code-jp)
     - [Source Han Mono](https://github.com/adobe-fonts/source-han-mono)
-  - Google
-    - [Noto Sans CJK](https://github.com/googlefonts/noto-cjk)<br><br>
   - Adobe
     - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
   - JetBrains
