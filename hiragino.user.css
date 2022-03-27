@@ -47,12 +47,14 @@ li,
 .css-183,
 .css-349,
 .css-356,
+.article-content,
 .css-329,
 .cc-nav-wrp,
 .symbol__title,
 .symbol__descr,
 .r-37j5jr,
 #bilibiliPlayer,
+tp-yt-paper-tab,
 .table-section table,
 .symbol__descr p,
 .symbol__copy-fields button,
@@ -650,6 +652,6 @@ html:lang(ko) samp {
 
 @font-face {
     font-family: "Segoe UI Emoji";
-    src: local("Twemoji Mozilla");
+    src: local("Apple Color Emoji");
     unicode-range: U+A9-E007F;
 }
