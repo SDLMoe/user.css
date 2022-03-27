@@ -1,33 +1,38 @@
 /* ==UserStyle==
 @name hiragino
 @namespace hiragino
-@version 0
+@version 1
 @preprocessor less
 ==/UserStyle== */
 
 /* ---------------------------------------------------------------------- */
 @EmojiFamily: "Apple Color Emoji", "_SegoeUIEmoji_Mahjong", "_TwitterColorEmoji";
 /* ---------------------------------------------------------------------- */
-@HiraginoFamily_JP: "Hiragino Sans Pr6N", "Hiragino Kaku Gothic ProN", "Hiragino Sans";
+@Sans: "SF Pro Text";
+@Mono: "Source Code Pro";
+/* ---------------------------------------------------------------------- */
+@AsianTextFont_Sans: "Hiragino Sans Pr6N";
+@HiraginoFamily_JP: @AsianTextFont_Sans, "Hiragino Kaku Gothic ProN", "Hiragino Sans";
 @HiraginoFamily_TC: "Hiragino Sans CNS", "Hiragino Sans TC";
 @HiraginoFamily_SC: "Hiragino Sans GB";
 /* ---------------------------------------------------------------------- */
 @AsianTextFont_Sans_JP: @HiraginoFamily_JP, @HiraginoFamily_TC, @HiraginoFamily_SC;
-@Body_Sans_JP: "SF Pro Text", @AsianTextFont_Sans_JP;
-@Body_Mono_JP: "Source Code Pro", @AsianTextFont_Sans_JP;
+@Body_Sans_JP: @Sans, @AsianTextFont_Sans_JP;
+@Body_Mono_JP: @Mono, @AsianTextFont_Sans_JP;
 /* ---------------------------------------------------------------------- */
 @AsianTextFont_Sans_SC: @HiraginoFamily_SC, @HiraginoFamily_JP, @HiraginoFamily_TC;
-@Body_Sans_SC: "SF Pro Text", @AsianTextFont_Sans_SC;
-@Body_Mono_SC: "Source Code Pro", @AsianTextFont_Sans_SC;
+@Body_Sans_SC: @Sans, @AsianTextFont_Sans_SC;
+@Body_Mono_SC: @Mono, @AsianTextFont_Sans_SC;
 /* ---------------------------------------------------------------------- */
 @AsianTextFont_Sans_TC: @HiraginoFamily_TC, @HiraginoFamily_JP, @HiraginoFamily_SC;
-@Body_Sans_TC: "SF Pro Text", @AsianTextFont_Sans_TC;
-@Body_Mono_TC: "Source Code Pro", @AsianTextFont_Sans_TC;
+@Body_Sans_TC: @Sans, @AsianTextFont_Sans_TC;
+@Body_Mono_TC: @Mono, @AsianTextFont_Sans_TC;
 /* ---------------------------------------------------------------------- */
+@Serif: "New York Small";
 @AsianTextFont_Serif: "Source Han Serif VF";
 @AsianTextFont_Serif_JP: "Hiragino Serif Pr6N";
-@Body_Serif: "New York Small", @AsianTextFont_Serif;
-@Body_Serif_JP: "New York Small", @AsianTextFont_Serif_JP, @AsianTextFont_Serif;
+@Body_Serif: @Serif, @AsianTextFont_Serif;
+@Body_Serif_JP: @Serif, @AsianTextFont_Serif_JP, @AsianTextFont_Serif;
 
 @FallBackSans: "Source Han Sans VF";
 @FallBackSerif: "Source Han Mono";
@@ -35,15 +40,18 @@
 
 @SegoeFamily: "Segoe UI Emoji", "Segoe Fluent Icons", "Segoe MDL2 Assets", "Segoe UI Symbol", "Segoe UI Historic";
 
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
 @-moz-document domain("getemoji.com") {
     * {
-        font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily  !important;
+        font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily !important;
     }
 }
 
 @-moz-document domain("google.com") {
     * {
-        font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily  !important;
+        font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily !important;
     }
 }
 
@@ -189,7 +197,7 @@ div.input-area div.launch-bar-form input.input,
 .post-container,
 li.video-item.matrix div.info span.so-icon.time,
 li.video-item.matrix div.info span.so-icon.watch-num {
-    font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily  !important;
+    font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily !important;
 }
 
 .file-info,
@@ -383,158 +391,158 @@ html:lang(ko) samp {
 
 @font-face {
     font-family: "Linux Libertine";
-    src: local("New York Small");
+    src: local(@Serif);
 }
 
 @font-face {
     font-family: "Georgia";
-    src: local("New York Small");
+    src: local(@Serif);
 }
 
 @font-face {
     font-family: "Times";
-    src: local("New York Small");
+    src: local(@Serif);
 }
 
 @font-face {
     font-family: "Time New Roman";
-    src: local("New York Small");
+    src: local(@Serif);
 }
 
 @font-face {
     font-family: "Arial";
-    src: local("SF Pro Text");
+    src: local(@Sans);
 }
 
 @font-face {
     font-family: "Oxygen";
-    src: local("SF Pro Text");
+    src: local(@Sans);
 }
 
 @font-face {
     font-family: "Helvetica";
-    src: local("SF Pro Text");
+    src: local(@Sans);
 }
 
 @font-face {
     font-family: "Helvetica Neue";
-    src: local("SF Pro Text");
+    src: local(@Sans);
 }
 
 @font-face {
     font-family: "Helvetica Now";
-    src: local("SF Pro Text");
+    src: local(@Sans);
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: local("SF Pro Text");
+    src: local(@Sans);
 }
 
 @font-face {
     font-family: "Roboto";
-    src: local("SF Pro Text");
+    src: local(@Sans);
 }
 
 @font-face {
     font-family: "Segoe UI";
-    src: local("SF Pro Text");
+    src: local(@Sans);
 }
 
 @font-face {
     font-family: "Tahoma";
-    src: local("SF Pro Text");
+    src: local(@Sans);
 }
 
 @font-face {
     font-family: "Trebuchet";
-    src: local("SF Pro Text");
+    src: local(@Sans);
 }
 
 @font-face {
     font-family: "Trebuchet MS";
-    src: local("SF Pro Text");
+    src: local(@Sans);
 }
 
 @font-face {
     font-family: "Ubuntu";
-    src: local("SF Pro Text");
+    src: local(@Sans);
 }
 
 @font-face {
     font-family: "Verdana";
-    src: local("SF Pro Text");
+    src: local(@Sans);
 }
 
 @font-face {
     font-family: monospace;
-    src: local("Source Code Pro");
+    src: local(@Mono);
 }
 
 @font-face {
     font-family: "SF Mono";
-    src: local("Source Code Pro");
+    src: local(@Mono);
 }
 
 @font-face {
     font-family: ui-monospace;
-    src: local("Source Code Pro");
+    src: local(@Mono);
 }
 
 @font-face {
     font-family: "SFMono-Regular";
-    src: local("Source Code Pro");
+    src: local(@Mono);
 }
 
 
 @font-face {
     font-family: "Consolas";
-    src: local("Source Code Pro");
+    src: local(@Mono);
 }
 
 @font-face {
     font-family: "Courier";
-    src: local("Source Code Pro");
+    src: local(@Mono);
 }
 
 @font-face {
     font-family: "Courier New";
-    src: local("Source Code Pro");
+    src: local(@Mono);
 }
 
 @font-face {
     font-family: "Lucida Console";
-    src: local("Source Code Pro");
+    src: local(@Mono);
 }
 
 @font-face {
     font-family: "Ubuntu Mono";
-    src: local("Source Code Pro");
+    src: local(@Mono);
 }
 
 @font-face {
     font-family: "SimSun";
-    src: local("Source Han Serif VF");
+    src: local(@AsianTextFont_Serif);
 }
 
 @font-face {
     font-family: "SimSun-ExtB";
-    src: local("Source Han Serif VF");
+    src: local(@AsianTextFont_Serif);
 }
 
 @font-face {
     font-family: "宋体";
-    src: local("Source Han Serif VF");
+    src: local(@AsianTextFont_Serif);
 }
 
 @font-face {
     font-family: "NSimSun";
-    src: local("Source Han Serif VF");
+    src: local(@AsianTextFont_Serif);
 }
 
 @font-face {
     font-family: "新宋体";
-    src: local("Source Han Serif VF");
+    src: local(@AsianTextFont_Serif);
 }
 
 @font-face {
@@ -569,88 +577,82 @@ html:lang(ko) samp {
 
 @font-face {
     font-family: "MingLiU";
-    src: local("Source Han Serif VF");
+    src: local(@AsianTextFont_Serif);
 }
 
 @font-face {
     font-family: "MingLiU-ExtB";
-    src: local("Source Han Serif VF");
+    src: local(@AsianTextFont_Serif);
 }
 
 @font-face {
     font-family: "PMingLiU";
-    src: local("Source Han Serif VF");
+    src: local(@AsianTextFont_Serif);
 }
 
 @font-face {
     font-family: "PMingLiU-ExtB";
-    src: local("Source Han Serif VF");
+    src: local(@AsianTextFont_Serif);
 }
 
 @font-face {
     font-family: "Microsoft JhengHei UI";
-    src: local("Hiragino Sans Pr6N");
+    src: local(@AsianTextFont_Sans);
 }
 
 @font-face {
     font-family: "Microsoft JhengHei";
-    src: local("Hiragino Sans Pr6N");
+    src: local(@AsianTextFont_Sans);
 }
 
 @font-face {
     font-family: "微軟正黑體";
-    src: local("Hiragino Sans Pr6N");
+    src: local(@AsianTextFont_Sans);
 }
 
 @font-face {
     font-family: "STHeiti TC";
-    src: local("Hiragino Sans Pr6N");
+    src: local(@AsianTextFont_Sans);
 }
 
 @font-face {
     font-family: "MingLiU_HKSCS";
-    src: local("Source Han Serif VF");
+    src: local(@AsianTextFont_Serif);
 }
 
 @font-face {
     font-family: "MingLiU_HKSCS-ExtB";
-    src: local("Source Han Serif VF");
+    src: local(@AsianTextFont_Serif);
 }
 
 @font-face {
     font-family: "MS Gothic";
-    src: local("Hiragino Sans Pr6N");
+    src: local(@AsianTextFont_Sans);
 }
 
 @font-face {
     font-family: "MS PGothic";
-    src: local("Hiragino Sans Pr6N");
+    src: local(@AsianTextFont_Sans);
 }
 
 @font-face {
     font-family: "MS UI Gothic";
-    src: local("Hiragino Sans Pr6N");
+    src: local(@AsianTextFont_Sans);
 }
 
 @font-face {
     font-family: "Yu Gothic";
-    src: local("Hiragino Sans Pr6N");
+    src: local(@AsianTextFont_Sans);
 }
 
 @font-face {
     font-family: "Yu Gothic UI";
-    src: local("Hiragino Sans Pr6N");
+    src: local(@AsianTextFont_Sans);
 }
 
 @font-face {
     font-family: "Meiryo";
-    src: local("Hiragino Sans Pr6N");
-}
-
-@font-face {
-    font-family: "Apple Color Emoji";
-    src: local("Apple Color Emoji");
-    unicode-range: U+A9-E007F;
+    src: local(@AsianTextFont_Sans);
 }
 
 @font-face {
