@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name hiragino
 @namespace hiragino
-@version 2022-03-27
+@version 2022-03-28
 @preprocessor less
 ==/UserStyle== */
 
@@ -45,13 +45,13 @@
 
 @-moz-document domain("getemoji.com") {
     * {
-        font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily !important;
+        font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily  !important;
     }
 }
 
 @-moz-document domain("google.com") {
     * {
-        font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily !important;
+        font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily  !important;
     }
 }
 
@@ -197,7 +197,7 @@ div.input-area div.launch-bar-form input.input,
 .post-container,
 li.video-item.matrix div.info span.so-icon.time,
 li.video-item.matrix div.info span.so-icon.watch-num {
-    font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily !important;
+    font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily  !important;
 }
 
 .file-info,
@@ -211,25 +211,26 @@ li.video-item.matrix div.info span.so-icon.watch-num {
     font-family: @EmojiFamily, @Body_Mono_SC, @FallBackSans, monospace, @SegoeFamily;
 }
 
-.mw-body h1:lang(ja) {
+.mw-body h1:lang(ja),
+.mw-body-content h2:lang(ja) {
     font-family: @EmojiFamily, @Body_Serif_JP, serif, @SegoeFamily;
 }
 
 .fontV2,
 .mw-body h1:lang(zh-Hans-CN),
 .mw-body h1:lang(zh-Hans),
-.mw-body-content h2:lang(zh-Hans),
-.mw-body-content h2:lang(en),
-.mw-body h1:lang(en) {
-    font-family: @EmojiFamily, @Body_Serif, serif, @SegoeFamily;
-}
-
+.mw-body h1:lang(en),
 .mw-body h1:lang(zh),
 .mw-body h1:lang(yue),
 .mw-body h1:lang(zh-Hant),
 .mw-body h1:lang(zh-Hant-TW),
 .mw-body h1:lang(zh-Hant-MO),
-.mw-body h1:lang(zh-Hant-HK) {
+.mw-body h1:lang(zh-Hant-HK),
+.mw-body-content h2:lang(zh-Hans),
+.mw-body-content h2:lang(en),
+.mw-body-content h2:lang(yue),
+.mw-body-content h2:lang(zh-Hant-TW),
+.mw-body-content h2:lang(zh-Hant-HK) {
     font-family: @EmojiFamily, @Body_Serif, serif, @SegoeFamily;
 }
 
@@ -660,7 +661,6 @@ html:lang(ko) samp {
     src: local("Apple Color Emoji");
     unicode-range: U+A9-E007F;
 }
-
 @font-face {
     font-family: "Source Code Pro";
     src: local("JetBrains Mono");
