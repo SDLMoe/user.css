@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name hiragino
 @namespace hiragino
-@version 2022-03-28
+@version 2022-04-05
 @preprocessor less
 ==/UserStyle== */
 
@@ -117,6 +117,13 @@ domain("ja.wiktionary.org") {
 
 /* ---------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------- */
+
+
+@-moz-document domain("jikipedia.com") {
+	input[type="search"] {
+		font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily !important;
+	}
+}
 
 .emoji,
 ul.menu,
