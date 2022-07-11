@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name hiragino
 @namespace hiragino
-@version 2022-05-04
+@version 2022-07-11
 @preprocessor less
 ==/UserStyle== */
 
@@ -130,6 +130,14 @@ domain("ja.wiktionary.org") {
 @-moz-document domain("jikipedia.com") {
 	input[type="search"] {
 		font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily !important;
+	}
+}
+
+@-moz-document domain("leetcode.cn"),
+domain("leetcode.com") {
+	.view-lines,
+	div.CodeMirror-code {
+		font-family: @EmojiFamily, @Body_Mono_SC, @FallBackSans, monospace, @SegoeFamily !important;
 	}
 }
 

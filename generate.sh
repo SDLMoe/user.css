@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env bash
+
 sed -e "s/.*@version.*/@version $(date -u +'%Y-%m-%d')/g" hiragino.user.css > hiragino-sourcecodepro.user.css
 
 sed -e "s/Source Code Pro/JetBrains Mono/g" hiragino-sourcecodepro.user.css > hiragino-jbmono.user.css
