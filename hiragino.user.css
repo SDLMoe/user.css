@@ -72,15 +72,7 @@
     }
 }
 
-@-moz-document domain("google.com") {
-    .material-icons {
-        font-family: 'Material Icons' !important;
-    }
-
-    .material-icons-extended {
-        font-family: 'Material Icons Extended' !important;
-    }
-
+@-moz-document regexp(".*://www.google.com.*") {
     * {
         font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily  !important;
     }
