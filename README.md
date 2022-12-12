@@ -19,7 +19,7 @@ Two ui-monospace font configuration are provided, click the link to install:
   - [San Francisco](https://developer.apple.com/fonts/), aka SF, including `SF Pro Text`, etc.
   - [New York](https://developer.apple.com/fonts/), including `New York Small`, etc.
 
-  > For Source Han, the `.ttc` (Super OTC) is recommended. _(needs OS support)_
+> For Source Han, the `.ttc` (Super OTC) is recommended. _(needs OS support)_
 
 - Adobe
   - [Source Han Serif](https://github.com/adobe-fonts/source-han-serif)
