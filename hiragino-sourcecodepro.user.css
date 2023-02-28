@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name hiragino
 @namespace hiragino
-@version 2022-12-11
+@version 2023-02-28
 @preprocessor less
 ==/UserStyle== */
 
@@ -154,6 +154,10 @@ domain("leetcode.com") {
         font-family: "Material Design Icons", "be-iconfont-bilifont", "be-iconfont-vanfont" !important;
     }
 
+    .iconfont .icon-tag {
+        font-family: "iconfont" !important;
+    }
+
     .emoji,
     .Hant,
     .Hans,
@@ -201,7 +205,11 @@ domain("leetcode.com") {
     div.bili-movie-card *,
     div.bili-manga-card *,
     div.bangumi-card-data *,
-    div.user-info *,
+    .info-title,
+    .info-tag > .tag-content,
+    .info-personal *,
+    .bili-dyn-item *,
+    .h .h-basic *,
     div[role="listitem"].custom-navbar-item *,
     a.watch-more *.vui_button,
     aside[class$="rank-list"] *,
