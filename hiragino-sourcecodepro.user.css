@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name hiragino
 @namespace hiragino
-@version 2023-02-28
+@version 2023-03-06
 @preprocessor less
 ==/UserStyle== */
 
@@ -174,6 +174,8 @@ domain("leetcode.com") {
     .data-card-top,
     .data-card-name,
     .root-reply,
+    .note-content .note-text *,
+    .reply-content,
     .reply-box-textarea,
     .video-title,
     .name,
