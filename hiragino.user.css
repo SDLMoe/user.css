@@ -320,7 +320,8 @@ domain("leetcode.com") {
     .ytd-rich-grid-slim-media #video-title,
     .ytd-expander yt-formatted-string,
     #description ytd-text-inline-expander yt-attributed-string,
-    #title h1 {
+    #title h1,
+    yt-formatted-string#video-title {
         font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily  !important;
     }
 }
