@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name hiragino
 @namespace hiragino
-@version 2023-04-01
+@version 2023-05-16
 @preprocessor less
 ==/UserStyle== */
 
@@ -364,13 +364,13 @@ textarea {
 }
 
 body,
-html:lang(en) body,
-html:lang(zh) body,
-html:lang(zh-CN) body,
-html:lang(zh-SG) body,
-html:lang(cmn-Hans) body,
-html:lang(zh-cmn-Hans) body,
-html:lang(zh-Hans) body {
+*[lang=en],
+*[lang=zh],
+*[lang=zh-CN],
+*[lang=zh-SG],
+*[lang=cmn-Hans],
+*[lang=zh-cmn-Hans],
+*[lang=zh-Hans] {
     font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily;
     quotes: "「""」";
 }
@@ -378,117 +378,117 @@ html:lang(zh-Hans) body {
 code,
 kbd,
 pre,
-html:lang(zh) code,
-html:lang(zh) kbd,
-html:lang(zh) pre,
-html:lang(zh) samp,
-html:lang(zh-CN) code,
-html:lang(zh-CN) kbd,
-html:lang(zh-CN) pre,
-html:lang(zh-CN) samp,
-html:lang(zh-SG) code,
-html:lang(zh-SG) kbd,
-html:lang(zh-SG) pre,
-html:lang(zh-SG) samp,
-html:lang(cmn-Hans) code,
-html:lang(cmn-Hans) kbd,
-html:lang(cmn-Hans) pre,
-html:lang(cmn-Hans) samp,
-html:lang(zh-cmn-Hans) code,
-html:lang(zh-cmn-Hans) kbd,
-html:lang(zh-cmn-Hans) pre,
-html:lang(zh-cmn-Hans) samp,
-html:lang(zh-Hans) code,
-html:lang(zh-Hans) kbd,
-html:lang(zh-Hans) pre,
-html:lang(zh-Hans) samp {
+*[lang=zh] code,
+*[lang=zh] kbd,
+*[lang=zh] pre,
+*[lang=zh] samp,
+*[lang=zh-CN] code,
+*[lang=zh-CN] kbd,
+*[lang=zh-CN] pre,
+*[lang=zh-CN] samp,
+*[lang=zh-SG] code,
+*[lang=zh-SG] kbd,
+*[lang=zh-SG] pre,
+*[lang=zh-SG] samp,
+*[lang=cmn-Hans] code,
+*[lang=cmn-Hans] kbd,
+*[lang=cmn-Hans] pre,
+*[lang=cmn-Hans] samp,
+*[lang=zh-cmn-Hans] code,
+*[lang=zh-cmn-Hans] kbd,
+*[lang=zh-cmn-Hans] pre,
+*[lang=zh-cmn-Hans] samp,
+*[lang=zh-Hans] code,
+*[lang=zh-Hans] kbd,
+*[lang=zh-Hans] pre,
+*[lang=zh-Hans] samp {
     font-family: @EmojiFamily, @Body_Mono_SC, @FallBackMono, monospace, @SegoeFamily;
 }
 
-html:lang(zh-TW) body,
-html:lang(cmn-Hant) body,
-html:lang(zh-cmn-Hant) body,
-html:lang(zh-Hant) body {
+*[lang=zh-TW],
+*[lang=cmn-Hant],
+*[lang=zh-cmn-Hant],
+*[lang=zh-Hant] {
     font-family: @EmojiFamily, @Body_Sans_TC, @FallBackSans, sans-serif, @SegoeFamily;
     quotes: "「""」";
 }
 
-html:lang(zh-TW) code,
-html:lang(zh-TW) kbd,
-html:lang(zh-TW) pre,
-html:lang(zh-TW) samp,
-html:lang(cmn-Hant) code,
-html:lang(cmn-Hant) kbd,
-html:lang(cmn-Hant) pre,
-html:lang(cmn-Hant) samp,
-html:lang(zh-cmn-Hant) code,
-html:lang(zh-cmn-Hant) kbd,
-html:lang(zh-cmn-Hant) pre,
-html:lang(zh-cmn-Hant) samp,
-html:lang(zh-Hant) code,
-html:lang(zh-Hant) kbd,
-html:lang(zh-Hant) pre,
-html:lang(zh-Hant) samp {
+*[lang=zh-TW] code,
+*[lang=zh-TW] kbd,
+*[lang=zh-TW] pre,
+*[lang=zh-TW] samp,
+*[lang=cmn-Hant] code,
+*[lang=cmn-Hant] kbd,
+*[lang=cmn-Hant] pre,
+*[lang=cmn-Hant] samp,
+*[lang=zh-cmn-Hant] code,
+*[lang=zh-cmn-Hant] kbd,
+*[lang=zh-cmn-Hant] pre,
+*[lang=zh-cmn-Hant] samp,
+*[lang=zh-Hant] code,
+*[lang=zh-Hant] kbd,
+*[lang=zh-Hant] pre,
+*[lang=zh-Hant] samp {
     font-family: @EmojiFamily, @Body_Mono_TC, @FallBackMono, monospace, @SegoeFamily;
 }
 
-html:lang(zh-Hant) body,
-html:lang(zh-HK) body,
-html:lang(zh-MO) body,
-html:lang(yue) body,
-html:lang(yue-Hant) body,
-html:lang(zh-yue-Hant) body {
+*[lang=zh-Hant],
+*[lang=zh-HK],
+*[lang=zh-MO],
+*[lang=yue],
+*[lang=yue-Hant],
+*[lang=zh-yue-Hant] {
     font-family: @EmojiFamily, @Body_Sans_TC, @FallBackSans, sans-serif, @SegoeFamily;
     quotes: "「""」";
 }
 
-html:lang(zh-Hant) code,
-html:lang(zh-Hant) kbd,
-html:lang(zh-Hant) pre,
-html:lang(zh-Hant) samp,
-html:lang(zh-HK) code,
-html:lang(zh-HK) kbd,
-html:lang(zh-HK) pre,
-html:lang(zh-HK) samp,
-html:lang(zh-MO) code,
-html:lang(zh-MO) kbd,
-html:lang(zh-MO) pre,
-html:lang(zh-MO) samp,
-html:lang(yue-Hant) code,
-html:lang(yue-Hant) kbd,
-html:lang(yue-Hant) pre,
-html:lang(yue-Hant) samp,
-html:lang(yue) samp,
-html:lang(yue) code,
-html:lang(yue) kbd,
-html:lang(yue) pre,
-html:lang(zh-yue-Hant) code,
-html:lang(zh-yue-Hant) kbd,
-html:lang(zh-yue-Hant) pre,
-html:lang(zh-yue-Hant) samp {
+*[lang=zh-Hant] code,
+*[lang=zh-Hant] kbd,
+*[lang=zh-Hant] pre,
+*[lang=zh-Hant] samp,
+*[lang=zh-HK] code,
+*[lang=zh-HK] kbd,
+*[lang=zh-HK] pre,
+*[lang=zh-HK] samp,
+*[lang=zh-MO] code,
+*[lang=zh-MO] kbd,
+*[lang=zh-MO] pre,
+*[lang=zh-MO] samp,
+*[lang=yue-Hant] code,
+*[lang=yue-Hant] kbd,
+*[lang=yue-Hant] pre,
+*[lang=yue-Hant] samp,
+*[lang=yue] samp,
+*[lang=yue] code,
+*[lang=yue] kbd,
+*[lang=yue] pre,
+*[lang=zh-yue-Hant] code,
+*[lang=zh-yue-Hant] kbd,
+*[lang=zh-yue-Hant] pre,
+*[lang=zh-yue-Hant] samp {
     font-family: @EmojiFamily, @Body_Mono_TC, @FallBackSans, monospace, @SegoeFamily;
 }
 
-html:lang(ja) body {
+*[lang=ja] {
     font-family: @EmojiFamily, @Body_Sans_JP, @FallBackSans, sans-serif, @SegoeFamily;
     quotes: "「""」";
 }
 
-html:lang(ja) code,
-html:lang(ja) kbd,
-html:lang(ja) pre,
-html:lang(ja) samp {
+*[lang=ja] code,
+*[lang=ja] kbd,
+*[lang=ja] pre,
+*[lang=ja] samp {
     font-family: @EmojiFamily, @Body_Mono_JP, @FallBackMono_JP, monospace, @SegoeFamily;
 }
 
-html:lang(ko) body {
+*[lang=ko] {
     font-family: @EmojiFamily, @Body_Sans_SC, @FallBackSans, sans-serif, @SegoeFamily;
 }
 
-html:lang(ko) code,
-html:lang(ko) kbd,
-html:lang(ko) pre,
-html:lang(ko) samp {
+*[lang=ko] code,
+*[lang=ko] kbd,
+*[lang=ko] pre,
+*[lang=ko] samp {
     font-family: @EmojiFamily, @Body_Mono_SC, @FallBackMono, monospace, @SegoeFamily;
 }
 
