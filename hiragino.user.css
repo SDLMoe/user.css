@@ -149,6 +149,15 @@ domain("leetcode.com") {
     }
 }
 
+@-moz-document domain("github.com") {
+
+    .react-line-numbers,
+    .react-code-text,
+    .text-mono {
+        font-family: @EmojiFamily, @Body_Mono_SC, @FallBackSans, monospace, @SegoeFamily  !important;
+    }
+}
+
 @-moz-document domain("bilibili.com") {
     .be-icon {
         font-family: "Material Design Icons", "be-iconfont-bilifont", "be-iconfont-vanfont" !important;
@@ -208,7 +217,7 @@ domain("leetcode.com") {
     div.bili-manga-card *,
     div.bangumi-card-data *,
     .info-title,
-    .info-tag > .tag-content,
+    .info-tag>.tag-content,
     .info-personal *,
     .bili-dyn-item *,
     .h .h-basic *,
@@ -228,6 +237,7 @@ domain("leetcode.com") {
 }
 
 @-moz-document domain("youtube.com") {
+
     .emoji,
     ul.menu,
     .signoutText,
@@ -327,6 +337,7 @@ domain("leetcode.com") {
 }
 
 @-moz-document domain("reddit.com") {
+
     .header[data-redditstyle=true],
     .div[id="TrendingPostsContainer"],
     .div[class^="subredditvars"],
