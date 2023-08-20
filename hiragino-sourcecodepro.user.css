@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name hiragino
 @namespace hiragino
-@version 2023-07-23
+@version 2023-08-20
 @preprocessor less
 ==/UserStyle== */
 
@@ -150,7 +150,7 @@ domain("leetcode.com") {
 }
 
 @-moz-document domain("github.com") {
-
+    .react-blob-print-hide,
     .react-line-numbers,
     .react-code-text,
     .text-mono {

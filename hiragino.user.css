@@ -150,7 +150,7 @@ domain("leetcode.com") {
 }
 
 @-moz-document domain("github.com") {
-
+    .react-blob-print-hide,
     .react-line-numbers,
     .react-code-text,
     .text-mono {
